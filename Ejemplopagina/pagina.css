@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap');
+
+.content{
+    background-color: whitesmoke;
+    height: auto;
+    padding: 20px 0px;
+}
+
+.page{
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.header{
+    background-color: rgb(255, 206, 255);
+}
+
+.header .titleh1{
+    text-align: center;
+    padding: 25px 0px;
+    font-family: baloo;
+}
+
+.header .subtitleh2{
+    text-align: center;
+    padding: 0px 60px 49px;
+}
+
+.titleh3, .ptext{
+    text-align: center;
+}
+
+.imagespage { 
+
+    display: flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+    
+.image {
+
+ 
+ flex-direction: column;
+ display:flex;
+ padding-bottom: 10px;
+}
+
+.img { 
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+    text-align: center;
+   
+   
+   
+}
+
+.img1 {
+
+    background-image: url(https://images.unsplash.com/photo-1547584370-2cc98b8b8dc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80);
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img2 {
+
+    background-image: url(https://images.unsplash.com/photo-1575367439058-6096bb9cf5e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80);
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.tittleimg, .descriptionimg, .p-text{
+    text-align: center;
+}

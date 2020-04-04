@@ -1,0 +1,38 @@
+.wrapper {
+    position: relative;
+  }
+  
+  .articles-wrapper {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .article {
+    padding: 10px;
+    width: 300px;
+
+  }
+  
+  .article.art1 {
+    background-color: rgb(255, 172, 186);
+  }
+  
+  .article.art2 {
+    background-color: rgb(147, 255, 147);
+  }
+  
+  .article.art3 {
+    background-color: rgb(131, 131, 253)139, 139, 243);
+  }
+  
+  .article.art4 {
+    background-color: rgb(247, 144, 144);
+  }
+  
+  .article.art5 {
+    background-color: rgb(173, 114, 216);
+  }
+
+  .article-title{
+      text-align: center;
+  }
